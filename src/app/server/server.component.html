@@ -1,0 +1,3 @@
+<!-- ngStyle and ngClass expression expects a JS obj with key/value pair -->
+<p [ngStyle]="{backgroundColor: getColor()}"
+    [ngClass]="{online: serverStatus === 'online'}">Server with ID {{serverId}} is {{serverStatus}}</p>
